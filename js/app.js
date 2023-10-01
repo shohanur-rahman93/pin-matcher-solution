@@ -22,3 +22,6 @@ document.getElementById('generate-pin').addEventListener ('click',function(){
     const displayPinField = document.getElementById('display-pin');
     displayPinField.value = pin;
 })
+document.getElementById('calculator').addEventListener('click',function(){
+    console.log('button clicked')
+})
